@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <label id="name-label">Name:</label><br>
+        <input type="text" id="name" placeholder="Enter your name"><br><br>
+        <label id="email-label">Email:</label><br>
+        <input type="email" id="email" placeholder="Enter your email"><br><br>
+        <label type="number" id="number-label">Age(Optional)</label><br>
+        <input type="number" id="number" placeholder="Enter your age"><br><br>
+        <label id="Question1">Which option best describes your current role?</label><br>
+        <select id="dropdown">
+            <option>Select current role</option>
+            <option>Student</option>
+            <option>Full time job</option>
+            <option>Full time learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+        </select><br><br>
+        <label id="Question2">Would you recommend freeCodeCamp to a friend?</label><br>
+        <div id="input">
+        <input type="radio" id="radio" checked > Definitely<br>
+        </div>
+        <div id="input1">
+        <input type="radio" id="radio"> Maybe<br>
+        </div>
+        <div id="input2">
+        <input type="radio" id="radio"> Not Sure
+    </div><br>
+        <label id="Question3">What is your favorite feature of freeCodeCamp?</label><br>
+        <select id="dropdown">
+        <option>Select an option</option>
+        <option>Chllenges</option>
+        <option>Projects</option>
+        <option>Community</option>
+        <option>Open Source</option>
+        </select><br><br>
+        <label id="Question4">What would you like to see improved? (Check all that apply)</label><br>
+        <div id="checkbox">
+            <input type="checkbox"> Front-end Projects<br>
+        </div>
+        <div id="checkbox">
+            <input type="checkbox"> Back-end Projects<br>
+        </div>
+        <div id="checkbox">
+            <input type="checkbox"> Data Visualization<br>
+        </div>
+        <div id="checkbox2">
+            <input type="checkbox"> Challenges<br>
+        </div>
+        <div id="checkbox3">
+            <input type="checkbox"> Open Source Community<br>
+        </div>
+        <div id="checkbox4">
+            <input type="checkbox"> Gitter help rooms<br>
+        </div>
+        <div id="checkbox5">
+            <input type="checkbox"> Videos<br>
+        </div>
+        <div id="checkbox6">
+            <input type="checkbox"> City Meetups<br>
+        </div>
+        <div id="checkbox7">
+            <input type="checkbox"> Wiki<br>
+        </div>
+        <div id="checkbox8">
+            <input type="checkbox"> Forum<br>
+        </div>
+        <div id="checkbox9">
+            <input type="checkbox"> Additional Courses
+        </div><br>
+        <label id="Question5">Any comments or suggestions?</label><br>
+        <textarea id="textarea" placeholder="Enter your comment here..."></textarea><br><br>
+        <input type="button" value="Submit" id="button">
+    </form>
+</body>
+</html>

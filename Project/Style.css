@@ -1,0 +1,111 @@
+body{
+    background-color:#1b1b32;
+}
+#title{
+    text-align:center;
+    color:white;
+}
+#description{
+    text-align:center;
+    color:white;
+}
+#survey-form{
+    text-align:center;
+    background-color:rgb(169, 169, 199);
+    display:inline-block;
+    margin-left:30%;
+    padding:20px;
+    font-size:15px;
+    width:500px;
+}
+#name-label{
+    margin-right:85%;
+}
+#name{
+    width:450px;
+    font-size:20px;
+    border-radius:10px;
+}
+#email-label{
+    margin-right:85%;
+}
+#email{
+    width:450px;
+    font-size:20px;
+    border-radius:10px;
+}
+#number-label{
+    margin-right:75%;
+}
+#number{
+    width:450px;
+    font-size:20px;
+    border-radius:10px;
+}
+#Question1{
+    margin-right:35%;
+}
+#dropdown{
+    width:450px;
+    font-size:20px;
+    border-radius:10px;
+}
+#Question2{
+    margin-right:30%;
+}
+#Question3{
+    margin-right:35%;
+}
+#Question4{
+    margin-right:20%;
+}
+#Question5{
+    margin-right:55%;
+}
+#textarea{
+    text-align:left;
+    width:450px;
+    border-radius:10px;
+}
+#input{
+    margin-right:75%;
+}
+#input1{
+    margin-right:78%;
+}
+#input2{
+    margin-right:76%;
+}
+#checkbox{
+    margin-right:65%;
+}
+#checkbox2{
+    margin-right:74%;
+}
+#checkbox3{
+    margin-right:57%;
+}
+#checkbox4{
+    margin-right:66%;
+}
+#checkbox5{
+    margin-right:79%;
+}
+#checkbox6{
+    margin-right:71%;
+}
+#checkbox7{
+    margin-right:81%;
+}
+#checkbox8{
+    margin-right:79%;
+}
+#checkbox9{
+    margin-right:64%;
+}
+#button{
+    width:450px;
+    padding: 10px;
+    background-color:rgb(55, 226, 55);
+    border-radius:20px;
+}
